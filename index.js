@@ -84,6 +84,7 @@ const disPlayWord=(word)=>{
 const disPlayLesson = (lessons) => {
   const levelContainer = document.getElementById("level-container");
   levelContainer.innerHTML = "";
+    document.getElementById("issue-count").innerText = lessons.length;
 
   for (let lesson of lessons) {
     
