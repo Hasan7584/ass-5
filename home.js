@@ -10,7 +10,7 @@ document.getElementById("login-btn").addEventListener("click",function(){
     console.log(Pin)
 
 
-    if(contactNumber=="admin" && Pin=="1234"){
+    if(contactNumber=="admin" && Pin=="admin123"){
         alert("login success")
         // window.location.replace("./home.html")
         window.location.assign("./home.html")
